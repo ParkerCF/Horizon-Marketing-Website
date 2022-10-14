@@ -1,4 +1,5 @@
 * {
+    /*set sizing, padding, margins for the whole page*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -78,6 +79,7 @@ p {
 }
 
 .content-section {
+    /*Sets styling for the main content in the body*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -87,15 +89,18 @@ p {
 }
 
 .content-section img {
+    /*sets height of content images*/
     max-height: 200px;
 }
 
 .content-section h2 {
+    /* adjusts heading of main content*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 #benefits {
+    /*aside content, adusting styling, floating to the right*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -107,22 +112,26 @@ p {
 }
 
 .benefit {
+    /*set margin and color for benefits in aside*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit h3 {
+    /*adjust aside headers for benefits*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit img {
+    /*benefit images in the content blocks*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 footer {
+    /*footer styling*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -130,5 +139,6 @@ footer {
 }
 
 footer h2 {
+    /*adjust font size in heading for the footer*/
     font-size: 20px;
 }
